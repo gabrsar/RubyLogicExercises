@@ -2,7 +2,7 @@ require_relative '../tester'
 
 # This exercise to me was much more difficult to understand than to implement.
 # The simple way to explain it was something like:
-# Imagine a bag of random letters, how many times can we make a word "XUXU" with all letters in that bag?
+# Imagine a bag of random letters, how many times can we make a word like "XUXU" for example with all letters in that bag?
 #
 # If is that, what I really hope it is (haha), we just need to understand how many letters we need of each for
 # the target word then we need to make a single pass counting each of letters of the bag, then our limit will be
