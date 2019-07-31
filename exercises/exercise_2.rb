@@ -8,7 +8,7 @@ require_relative '../tester'
 # the target word then we need to make a single pass counting each of letters of the bag, then our limit will be
 # the minimum groups of required/found letters we found.
 
-# This approach is O(n) in time and space. I really don't thing any way to improve its complexity.
+# This approach is O(n) in time and space. I really don't think any way to improve its complexity.
 def string_groups(target_string, input_string)
   required_occurrences = group_and_count(target_string.split(''))
   found_occurrences = group_and_count(input_string.split(''))
